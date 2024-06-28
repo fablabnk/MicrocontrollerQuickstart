@@ -5,6 +5,7 @@ With microcontrollers, it's easy to get stuck setting up your board and uploadin
 Note: We recommended installing version 2 of the Arduino IDE. The guides below are written as if you are using that :)
 
 A couple of general tips:
+- on Ubuntu, if the Ports section of the IDE is greyed out, or a USB entry doesn't appear in Ports when you connect your microcontroller, you need to remove this package `sudo apt remove brltty`
 - USB cable-type matters: some cables only provide power, some power and data
 - sometimes problems can be identified resolved in `File -> Preferences` by ticking  the `Show verbose output during upload` option
 
